@@ -1,0 +1,11 @@
+POST http://localhost:3333/api/notes
+Content-Type: application/json
+
+{
+    "title": "Third message",
+    "description": "this is the third message",
+    "category": "private"
+}
+
+###
+GET http://localhost:3333/api/notes
