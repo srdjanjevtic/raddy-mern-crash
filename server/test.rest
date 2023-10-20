@@ -9,3 +9,21 @@ Content-Type: application/json
 
 ###
 GET http://localhost:3333/api/notes
+
+
+###
+GET http://localhost:3333/api/notes/65326abed3ced18e957919c9
+
+
+###
+PUT http://localhost:3333/api/notes/65326abed3ced18e957919c9
+Content-Type: application/json
+
+{
+    "title": "First message",
+    "description": "this is the first message",
+    "category": "private"
+}
+
+###
+DELETE http://localhost:3333/api/notes/65326abed3ced18e957919c9
